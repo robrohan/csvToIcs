@@ -5,7 +5,7 @@ This is a simple utility to convert a CSV file to an ICS file. I needed somethin
 It takes a CSV file in the form of:
 
 | Subject | Start Date | Start Time | End Date | End Time | All Day Event | Description | Location | Private |
-|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+|---------|------------|------------|----------|----------|---------------|-------------|----------|---------|
 | 🛏 Rest | 2018-08-06 |            |          |          |     TRUE      | Things and stuff |      |  FALSE |
 | 🛏 Rest | 2018-08-07 |            |          |          |     TRUE      | Things and stuff |      |  FALSE |
 

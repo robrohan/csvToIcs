@@ -76,9 +76,9 @@ func main() {
 }
 
 func formatRecord(record []string, event *bytes.Buffer) error {
-	uuid, err := uuid()
+	uuid, err := newid()
 	if err != nil {
-		panic("Bad UUID gen")
+		panic("Bad id gen")
 	}
 
 	if len(record)-1 != private {
@@ -151,7 +151,8 @@ func parseFile(path string, fn recordReader) error {
 
 // Thanks internet
 // https://stackoverflow.com/questions/15130321/is-there-a-method-to-generate-a-uuid-with-go-language#15134490
-func uuid() (string, error) {
+// Close enough for jazz.
+func newid() (string, error) {
 	u := make([]byte, 16)
 	_, err := rand.Read(u)
 	if err != nil {

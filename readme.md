@@ -20,7 +20,7 @@ You can create the training plan in Excel, Numbers, scim, or whatever program yo
 
 This will only generate all day events, and it uses the start date. In fact, it only uses the _Subject_, _Start Date_, and _Description_ fields. You can hide the others in your spreadsheet application, but the exported CSV must have all the fields.
 
-The reason the other fields are there is: this particular CSV format is supported by other applciations (Google Calendar for example), and it just seemed like a good idea to stick to the format.
+The reason the other fields are there is: this particular CSV format is supported by other applications (Google Calendar for example), and it just seemed like a good idea to stick to the format.
 
 Unlike Google Calendar, this application supports using Emojis in the Subject.
 
@@ -32,4 +32,4 @@ From a terminal:
 
 ## Template
 
-I've added a numbers file that you can use as a template if you wish
+I've added a Numbers file that you can use as a template if you wish

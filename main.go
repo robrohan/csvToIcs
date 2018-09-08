@@ -81,7 +81,7 @@ func formatRecord(record []string, event *bytes.Buffer) error {
 		panic("Bad id gen")
 	}
 
-	if len(record)-1 != private {
+	if len(record)-1 < private {
 		fmt.Printf("%v %v", len(record), private)
 		return errors.New("Bad record length")
 	}

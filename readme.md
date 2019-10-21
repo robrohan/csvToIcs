@@ -1,5 +1,7 @@
 # CSV to ICS
 
+*Note* this app has been rolled into HungryLegs: https://github.com/robrohan/hungrylegs
+
 This is a simple utility to convert a CSV file to an ICS file. I needed something simple to help make training plans into calendar events. This isn't production level software, this isn't a product, it's a quick 'n dirty utility.
 
 It takes a CSV file in the form of:
